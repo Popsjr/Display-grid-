@@ -1,0 +1,26 @@
+body{
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 800px;
+    margin: 0;
+    gap: 0;
+
+}
+.white{
+    background-color: #f0d9b5;
+    height: 100px;
+    width: 100%;
+}
+.black{
+    background-color: #b58863;   
+    height: 100px;
+    width: 100%;
+}
+.white:nth-child(odd){
+    /* grid-column: auto;
+    background-color: var(--color-1); */
+}
